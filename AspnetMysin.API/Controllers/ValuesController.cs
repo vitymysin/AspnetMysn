@@ -14,6 +14,7 @@ namespace AspnetMysin.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+         //   throw new Exception("Mysin Exception");
             return new string[] { "value1", "value2" };
         }
 
